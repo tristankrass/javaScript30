@@ -29,6 +29,7 @@ body {
     color: white !important;
     font-size: 1.4rem;
     padding: 1rem;
+    transition: all .07s ease;
 }
 kbd {
     color: var(--yelow);
