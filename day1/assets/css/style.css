@@ -1,0 +1,54 @@
+:root {
+    --yelow: #ecd018;
+    --orange-like: #ffc600;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image:url("../img/bg.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Audiowide', cursive;
+}
+
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.key {
+    border: 2px solid var(--yelow);
+    margin: 1rem;
+    cursor: pointer;
+    color: white !important;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+kbd {
+    color: var(--yelow);
+    font-size: 2rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: var(--orange-like);
+  box-shadow: 0 0 1rem var(--orange-like);
+}
+
+@media (max-width: 600px) {
+    .keys {
+        flex-direction: column;
+    }
+}
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+
+}
