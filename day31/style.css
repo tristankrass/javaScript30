@@ -67,3 +67,18 @@ h1 {
 .hole.up .mole {
   top: 0;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20rem;
+}
+.button {
+  height: 10rem;
+  width: 20rem;
+  background: black;
+  color: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 5rem;
+}
